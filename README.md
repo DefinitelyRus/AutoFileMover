@@ -84,7 +84,7 @@ All configuration data is stored as JSON in the application directory:
 To create a standalone `.exe` file:
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --windowed --icon=app.ico AutoFileMover.pyw
+python -m PyInstaller --onefile --windowed AutoFileMover.pyw
 ```
 
 ## Use Cases
